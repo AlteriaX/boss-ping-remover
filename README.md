@@ -3,7 +3,7 @@ Makes the bosses attacks match up with servers
 
 ### Config:
 
-You may change the speed/minimum FPS in `config/config.json`:
+You may change the speed/minimum FPS in `config.json`:
 
 ```
 {
