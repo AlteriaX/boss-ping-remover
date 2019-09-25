@@ -1,37 +1,10 @@
 {
     "files": {
-        "README.md": "a5a06129206cefeeb319a7b71a7e274601b36408fca562502dbaed35e7845399",
-        "README.url": "0a28730036ca6f1d175fc6e7e8d706f07f086995e3080f98037d251ae4475d56",
-        "config/config.json": {
-            "hash": "89cd6f0d83e37b933d52d0a55aaca4478c4d421d5fb2e86104cf0a2806aa3b11",
-            "overwrite": false
-        },
-        "config/data.json": {
-            "hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-            "overwrite": false
-        },
-        "index.js": "bb80d7b49c6aa47f389c502e6176d9d930cb3f53b6eecf8a4f474008c7559fe4",
-        "lib/bpr.js": "2c24202eb0c3251f63368cf23687ba24ff0e64863bf1153ca7c29cd67a2e7eaa",
-        "lib/ping.js": "5af7a105458f35150f54bc2f23bc045bb59ea28fecc3af7a9f93ec93824e9067",
-        "module.json": "20408d185aa2c425afb791e493eeb06c6ff10d3a7191227e1952c73d7c88fb70"
-    },
-    "defs": {
-        "C_CANCEL_SKILL": 3,
-        "C_CAN_LOCKON_TARGET": 3,
-        "C_NOTIMELINE_SKILL": 3,
-        "C_REQUEST_GAMESTAT_PING": "raw",
-        "C_START_COMBO_INSTANT_SKILL": 6,
-        "C_START_INSTANCE_SKILL": 7,
-        "C_START_INSTANCE_SKILL_EX": 5,
-        "C_START_SKILL": 7,
-        "C_START_TARGETED_SKILL": 7,
-        "S_ACTION_END": 5,
-        "S_ACTION_STAGE": 9,
-        "S_CANNOT_START_SKILL": 4,
-        "S_CAN_LOCKON_TARGET": 3,
-        "S_LOAD_TOPO": 3,
-        "S_LOGIN": 13,
-        "S_RESPONSE_GAMESTAT_PONG": "raw",
-        "S_SPAWN_NPC": 11
+		"config.json": {
+			"overwrite": false,
+			"hash": "a15495f4e6c2c4008db89f6cccd39b47a1dbef55db0f9c522dedbc84a83d3770"
+		},
+        "index.js": "16e1e81e06bf4f1751aaa6d825d524db08e8616d8ab7ab93930dcee764c702fa",
+        "ping.js": "4abf24fd88e67b4bc159d63d147a47e8e5a86276a158a08c935b8f64215515d0"
     }
 }
