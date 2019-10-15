@@ -46,7 +46,7 @@ class Ping {
       return ((id > 0x4000000) ? id - 0x4000000 : id)
     }
     
-    dispatch.hook('S_LOGIN', 13, e => {gameId = e.gameId})
+    dispatch.hook('S_LOGIN', dispatch.majorPatchVersion >= 86 ? 14 : 13, e => { gameId = e.gameId })
 
     const skillHook = e => {
         if (e.skill) pingStart(e.skill.id ? e.skill.id : skillId(e.skill))
