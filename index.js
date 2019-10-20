@@ -107,7 +107,7 @@ module.exports = function BossPingRemover(mod) {
             let length = cache[huntingZoneId][templateId][skill]
             if (length > 0 && ping.history.length > 0) {
                 // shorten by ping
-                event.speed = event.speed * (length * config.speedMultiplier) / Math.max(length - ping.avg * event.speed, 1000/config.minCombatFPS)
+                event.speed = event.speed * (length * config.speedMultiplier) / Math.max(length - ping.min * event.speed, 1000/config.minCombatFPS)
                 return true
             }
         }
