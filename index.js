@@ -81,7 +81,13 @@ module.exports = function BossPingRemover(mod) {
         zone = event.zone
         currentActions = {}
     })
-
+	
+	// Thanks Leyki uwu
+	mod.hook('S_CREATURE_ROTATE', 2, event => {
+        event.time = Math.max(event.time - ping.min, 30)
+        return true
+    })
+	
     // S_ACTION_STAGE
     mod.hook('S_ACTION_STAGE', 9, {order: 2000}, event => {
         if (event.skill.npc) {
