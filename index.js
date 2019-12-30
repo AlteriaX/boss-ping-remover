@@ -84,7 +84,7 @@ module.exports = function BossPingRemover(mod) {
 	
 	// Thanks Leyki uwu
 	mod.hook('S_CREATURE_ROTATE', 2, event => {
-        event.time = Math.max(event.time - ping.min, 30)
+        event.time = Math.max(event.time - ping.min, 0)
         return true
     })
 	
