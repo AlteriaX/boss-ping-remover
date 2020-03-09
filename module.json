@@ -1,7 +1,6 @@
 {
     "disableAutoUpdate": false,
-    "servers": ["https://raw.githubusercontent.com/AlteriaX/boss-ping-remover/master/"],
-    "supportUrl": "https://github.com/AlteriaX/boss-ping-remover/issues",
+    "servers": ["https://raw.githubusercontent.com/solitaryflower/boss-ping-remover/master/"],
     "name": "boss-ping-remover",
     "author": "Alteria / Mister-Kay",
     "description": "Makes the bosses attacks match up with servers."
